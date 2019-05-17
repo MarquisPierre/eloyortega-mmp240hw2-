@@ -1,0 +1,150 @@
+/*colors
+#aa1600
+#2d2a2a
+#efefef
+*/
+
+body{
+   font-family: helvetica; 
+     background-image:url(image/home/hunger-games-1.jpg)
+}
+
+
+.back{
+    background-color: #efefef;
+    margin: 100px;
+    
+}
+
+p{ 
+
+}
+
+
+
+#storm{
+    background-color: #efefef;
+  
+    
+}
+
+#su{
+    color: white;
+    margin-left: 200px;
+}
+
+
+/* Header and Navigation bar*/
+#main{
+    float: right
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#2d2a2a;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover{
+    background-color: #aa1600;
+    
+}
+
+li a:active{
+    background-color: #aa1600;
+}
+
+
+/* contents*/
+
+
+.content-container{
+background color:aliceblue;
+   margin: 90px;
+    
+}
+
+#content-container-1{
+    padding:30px;
+    margin: 80px;
+    display:  grid: 
+}
+.content-container-1:after{
+     content:"";
+    display:block;
+    clear:both;
+    
+}
+
+
+.jay{
+    padding:80px;
+    margin: 30px;
+    float:left
+    
+    
+}
+
+.jay-2{
+   padding: 30px
+   
+
+}
+.jay-2 img {
+    float: left;
+    padding: 30px;
+    
+}
+
+.jay-2 p{
+    
+}
+
+
+
+#rewards{
+    float: left;
+}
+#quotes{
+    float: right;
+}
+
+#year{
+    float: left;
+    padding:20px;
+    margin:90px;
+    
+}
+
+/* images*/
+
+#lead{
+    padding:20px;
+    margin: 0;
+    float:left
+    
+    
+}
+  
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="content-container] {
+    width: 100%;
+  }
+}
